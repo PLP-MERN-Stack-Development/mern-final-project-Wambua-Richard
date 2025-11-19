@@ -23,10 +23,10 @@ The backend is built with:
 * **Clerk Authentication (JWT verification)**
 * **OpenAI API for AI tutoring**
 
-Base URL (Production Example):
+Base URL (Production):
 
 ```
-https://your-backend.vercel.app/api
+https://mern-final-project-backend-6jkv.onrender.com
 ```
 
 ---

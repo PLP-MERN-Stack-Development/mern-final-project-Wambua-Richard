@@ -287,6 +287,13 @@ Supported deployment targets:
 * Netlify
 * Render static hosting
 
+# 🚀 Production
+
+The project is live on:
+
+Backend: https://mern-final-project-backend-6jkv.onrender.com
+Frontend:
+
 ### **CI/CD Pipeline (GitHub Actions)**
 
 The project includes:

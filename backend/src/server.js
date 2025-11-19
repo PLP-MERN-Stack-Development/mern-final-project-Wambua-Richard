@@ -6,6 +6,10 @@ import dotenv from "dotenv";
 import { Server } from "socket.io";
 import app from "./app.js";   // <-- Uses your updated app.js
 import * as Sentry from '@sentry/node';
+import aiRoutes from "./routes/ai.routes.js";
+// ------------------------------
+app.use("/api/v1/ai", aiRoutes);
+
 // ------------------------------
 
 Sentry.init({ dsn: process.env.SENTRY_DSN, environment: process.env.NODE_ENV });
